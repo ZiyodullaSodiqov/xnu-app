@@ -11,6 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "android": {
+          "minSdkVersion": 21
+        },
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -21,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ziyodulla.sodiqovv.reactapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dafceb91-f987-4577-b5d6-0a86308a23f1"
+      }
+    }  
   }
 }
